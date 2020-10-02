@@ -43,6 +43,11 @@ Inquirer module
 
 ## Screens
 
+![code shot](assets/code.png)
 
+Open index.js in Integrated Terminal.
 
-    
+Using node.js , run index.js
+```
+-node index.js
+```
