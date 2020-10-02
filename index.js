@@ -10,27 +10,26 @@ const writeFileSync = util.promisify(fs.writeFile);
 
 
 
-// main();
-// // function to initialize program
-// function main() {
-//     promptUser()
-//     .then ((answers) => {
-//         const read = generateREAD(answers);
-//         return writeFileSync("README.md", read);
+main();
+// function to initialize program
+function main() {
+    promptUser()
+    .then ((answers) => {
+        const read = generateREAD(answers);
+        return writeFileSync("README.md", read);
         
-//     })
-//     .then(() => {
-//         console.log("READme has been written!");
-//     })
-//     .catch ((err) => {
-//         console.log(err);
-//     });
-// }
+    })
+    .then(() => {
+        console.log("READme has been written!");
+    })
+    .catch ((err) => {
+        console.log(err);
+    });
+}
 
 
-promptUser();
 function promptUser() {
-    const questions = [
+    return inquirer.prompt([
         {
             type: "input",
             message: `What is the name of your Project?`,
@@ -83,11 +82,7 @@ function promptUser() {
             name: "linked",
         },
                 
-    ];
-    console.log(questions);
-    return inquirer.prompt(questions).then(answers => {
-        const read = generateREAD(answers);
-        console.log(read)});
+    ]);
 }
 
 function generateREAD(answers) {
