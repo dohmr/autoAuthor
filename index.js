@@ -16,7 +16,7 @@ function main() {
     promptUser()
     .then ((answers) => {
         const read = generateREAD(answers);
-        return writeFileSync("README.md", read);
+        return writeFileSync("auto.md", read);
         
     })
     .then(() => {
@@ -65,10 +65,9 @@ function promptUser() {
             message: "Please select any license('s) this Application is covered under.",
             name: "licenses",
             choices: [
-                "One",
-                "Two",
-                "Three",
-                "Four",
+                "inquirer",
+                "gitHub",
+
             ]
         },
         {
@@ -88,6 +87,10 @@ function promptUser() {
 function generateREAD(answers) {
     return `
 # autoAuthor
+
+![npm](https://img.shields.io/npm/l/inquirer)
+![github](https://img.shields.io/github/license/dohmr/autoAuthor)
+
 
 # TITLE
 
@@ -117,7 +120,7 @@ ${answers.limits}
 
 ## Licenses
 
-${answers.licenses}
+The Use of ${answers.licenses} 
 
 
 ## Test
@@ -126,3 +129,6 @@ ${answers.test}
 `;
 
 }
+
+// https://img.shields.io/npm/l/inquirer
+// https://img.shields.io/github/license/dohmr/autoAuthor
