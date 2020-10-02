@@ -3,11 +3,6 @@ const fs = require("fs");
 const util = require("util");
 const writeFileSync = util.promisify(fs.writeFile);
 
-// function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-
 
 
 main();
@@ -16,7 +11,7 @@ function main() {
     promptUser()
     .then ((answers) => {
         const read = generateREAD(answers);
-        return writeFileSync("auto.md", read);
+        return writeFileSync("testing.md", read);
         
     })
     .then(() => {
@@ -100,6 +95,14 @@ ${answers.title}
 
 ${answers.description}
 
+
+* [Installation](#installation)
+* [Usage](#usage)
+* [Questions](#questions)
+* [Contributions](#contributions)
+* [Licenses](#licenses)
+
+
 ## Installation
 
 ${answers.install}
@@ -111,6 +114,7 @@ ${answers.usage}
 ## Questions
 
 https://www.linkedin.com/in/${answers.linked}/
+
 https://github.com/${answers.github}/
 
 ## Contributions or Limitations
@@ -130,5 +134,3 @@ ${answers.test}
 
 }
 
-// https://img.shields.io/npm/l/inquirer
-// https://img.shields.io/github/license/dohmr/autoAuthor
