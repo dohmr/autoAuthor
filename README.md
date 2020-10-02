@@ -11,7 +11,7 @@ This application removes the hassle of having to create your own markdown readMe
 
 ## Installation
 
-Clone the Repository located here: https://github.com/dohmr/autoAuthor
+Clone the Repository located here: [dohmr / autoAuthor Repo](https://github.com/dohmr/autoAuthor)
 
 Open via Code editor, and run javascript file within your terminal. Using node.js, execute the file.
 
@@ -22,9 +22,9 @@ Following installation procedure, you are then prompted with a series of questio
 
 ## Questions
 
-https://www.linkedin.com/in/shawn.yandall/
+[Shawn Yandall : LinkedIn](https://www.linkedin.com/in/shawn.yandall/)
 
-https://github.com/dohmr/
+[Shawn Yandall : Github](https://github.com/dohmr/)
 
 ## Contributions or Limitations
 
@@ -51,4 +51,4 @@ Using node.js , run index.js
 ```
 -node index.js
 ```
-Link to a Walk-through , here : https://drive.google.com/file/d/1FilzIn267b1Shm35cH7w4IX-bSWNDtuZ/view?usp=sharing
+Link to a Walk-through , here : [App. Walk-Through](https://drive.google.com/file/d/1FilzIn267b1Shm35cH7w4IX-bSWNDtuZ/view?usp=sharing)
