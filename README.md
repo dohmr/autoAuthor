@@ -11,7 +11,7 @@ This application removes the hassle of having to create your own markdown readMe
 
 ## Installation
 
-Clone the Repository located here:
+Clone the Repository located here: https://github.com/dohmr/autoAuthor
 
 Open via Code editor, and run javascript file within your terminal. Using node.js, execute the file.
 
