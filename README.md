@@ -1,39 +1,48 @@
 
-# autoAuthorundefined
+# autoAuthor
 
 # TITLE
 
-Science
+Auto Author
 
 ## Description
 
-Its a science application
+This application removes the hassle of having to create your own markdown readMe file! With just a few easy to answer questions, your readMe is complete!
 
 ## Installation
 
-Grab and Go
+Clone the Repository located here:
+
+Open via Code editor, and run javascript file within your terminal. Using node.js, execute the file.
 
 ## Usage
 
-Unload and Reload
+Purpose of this application is to create a markdown readMe file.
+Following installation procedure, you are then prompted with a series of questions. The answers are then used to populate and create a new READme file using markdown language.
 
 ## Questions
 
 https://www.linkedin.com/in/shawn.yandall/
+
 https://github.com/dohmr/
 
 ## Contributions or Limitations
 
-Shawn and Sean and Shaun
+The use of online sources. 
+
+NPM packages and modules; Inquirer
+
+Instructor tutorials and direction.
 
 
 ## Licenses
 
-Three
+![NPM](https://img.shields.io/npm/l/inquirer)
+Inquirer module
 
 
-## Test
+## Screens
 
-Science
+
 
     
